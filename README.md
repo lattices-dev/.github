@@ -1,0 +1,1 @@
+This repository contains the [Lattices GitHub organization](https://github.com/lattices-dev) profile, its brand assets, and org settings text. GitHub displays [profile/README.md](profile/README.md) on the organization page.
