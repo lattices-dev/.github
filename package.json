@@ -1,0 +1,6 @@
+{
+  "name": "lattices-org-profile",
+  "private": true,
+  "scripts": { "brand": "bun brand/build.ts" },
+  "devDependencies": { "puppeteer-core": "24.25.0", "marked": "16.4.0" }
+}

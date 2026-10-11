@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://lattices.dev/docs/quickstart
+    about: Installation, commands, and desktop workflows.
+  - name: Lattices website
+    url: https://lattices.dev
+    about: Lattices, Action, Speech, and Blink.

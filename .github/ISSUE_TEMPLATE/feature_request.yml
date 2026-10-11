@@ -1,0 +1,24 @@
+name: Feature request
+description: Describe a workflow that could work better.
+body:
+  - type: input
+    id: product
+    attributes:
+      label: Product
+      placeholder: Lattices, Action, Speech, or Blink
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the workflow and where it falls short.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Include alternatives you have considered, if any.
+    validations:
+      required: true
