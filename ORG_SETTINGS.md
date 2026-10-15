@@ -1,48 +1,41 @@
 # Organization settings
 
+## Current organization profile
+
+**Display name**
+
+Lattices
+
 **Description**
 
-tmux workspaces and a native macOS menu bar app for tiling, layers, search and navigation. CLI and MCP tools for agents.
+Native macOS tools for developers and agents. Workspaces, computer use, spatial notes, and speech.
 
 **Website**
 
 https://lattices.dev
 
-**Bio**
+**Avatar**
 
-We build Lattices, Action, Speech and Blink: workspaces, computer use, voice and spatial notes for the Mac.
+`brand/org-avatar.png`
 
-## Lattices repository after transfer
+## Source and release destinations
 
-**Description**
+The app, CLI, Action, Speech, and Blink source remain in `arach/lattices`. No repository transfer is required for this organization profile. Use working source and release links until a transfer is completed and verified.
 
-tmux workspaces and a native macOS menu bar app for tiling, layers, search and navigation, with CLI and MCP tools for agents.
+- Source: https://github.com/arach/lattices
+- Release: https://github.com/arach/lattices/releases/tag/v0.14.0
+- CLI: `@lattices/cli` and `@arach/lattices`, both version 0.14.0.
+- Skills: `npx skills add arach/lattices --all --global --yes`
 
-**Website**
+## Profile publication
 
-https://lattices.dev
+GitHub requires a public `.github` repository to display `profile/README.md` on the public organization page. This repository is currently private. Making it public also exposes its tracked files and commit history; that visibility change is a separate step.
 
-**Topics**
+Keep `.github` unpinned; it contains organization metadata rather than a separate product. Add product repositories only if they are split out or transferred later.
 
-`macos`, `tmux`, `window-management`, `swift`, `typescript`, `cli`, `mcp`, `developer-tools`
+## Other settings
 
-## Pinned repositories
-
-1. `lattices` after transfer: the app, CLI, Action, Speech and Blink live in this repository.
-
-Keep `.github` unpinned; it contains organization metadata rather than a separate product. Add product repositories only if they are split out later.
-
-## Social links
-
-- Website: https://lattices.dev
-- Brand guide: https://lattices.dev/brand (publish after PR #144 merges and the route is deployed).
-
-## Manual setup
-
-- Make this `.github` repository public to activate the public profile and organization community defaults.
-- Upload `brand/org-avatar.png` as the organization avatar.
-- Upload `brand/social-preview-lattices.png` in the transferred Lattices repository's Settings → General → Social preview.
-- Upload `brand/social-preview-github.png` as this repository's social preview.
-- Apply the text and pin order above after transferring `arach/lattices` to `lattices-dev/lattices`.
-- Enable private vulnerability reporting in each public repository under Settings → Security → Advanced Security. The default policy does not enable the feature.
-- Review repository-level community files: Lattices already has `.github/SECURITY.md` and `.github/CONTRIBUTING.md`, which override these organization defaults. Its current security policy uses email; update that policy separately if private reporting should replace it.
+- `brand/social-preview-github.png` is the social preview for this repository.
+- `brand/social-preview-lattices.png` is available for the source repository.
+- Enable private vulnerability reporting in each public repository before directing reports there. The default security policy does not enable the feature.
+- Repository-level community files override organization defaults. Lattices has its own security and contributing policies.

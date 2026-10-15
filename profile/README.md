@@ -8,34 +8,35 @@
 
 <h1 align="center">Lattices</h1>
 
-<p align="center">tmux workspaces, a native Mac desktop, and tools for agents.</p>
+<p align="center">Native Mac workspaces and tools for developers and agents.</p>
 
 <p align="center"><a href="https://lattices.dev">lattices.dev</a></p>
 
 ### Projects
 
-- **[Lattices](https://github.com/lattices-dev/lattices)** · tmux workspaces paired with a native macOS menu bar app for tiling, layers, search and navigation. The `lats` CLI and MCP give agents desktop control.
+- **[Lattices](https://github.com/arach/lattices)** · A native macOS menu bar app for tiling, layers, search and navigation, with persistent tmux sessions. The `lats` CLI and local API give agents desktop control.
 - **[Action](https://lattices.dev/action)** · Computer use: observe, act and record.
 - **[Speech](https://lattices.dev/speech)** · A voice for agents, with background readouts and HUD readalong.
 - **[Blink](https://lattices.dev/blink)** · Spatial notes as floating panels.
 
 ### Install
 
-**Mac app** · [Download Lattices.dmg](https://github.com/lattices-dev/lattices/releases/download/v0.13.3/Lattices.dmg) · [Releases](https://github.com/lattices-dev/lattices/releases)
+**Mac app 0.14.0** · [Download Lattices.dmg](https://github.com/arach/lattices/releases/download/v0.14.0/Lattices.dmg) · [Releases](https://github.com/arach/lattices/releases)
 
 **Agent skills**
 
 ```sh
-npx skills add lattices-dev/lattices --all --global --yes
+npx skills add arach/lattices --all --global --yes
 ```
 
 **CLI** · Node 18+ or Bun.
 
-<!-- TODO: Change @arach/lattices to @lattices/cli when the npm package moves. -->
 ```sh
-npm install -g @arach/lattices
+npm install -g @lattices/cli
 lats app
 ```
+
+The CLI is also published as `@arach/lattices`. Source, issues, and releases live in [arach/lattices](https://github.com/arach/lattices).
 
 ### Docs
 
