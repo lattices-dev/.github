@@ -1,5 +1,7 @@
 <a href="https://lattices.dev">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lattices-dev/.github/main/profile/assets/hero-mobile-dark.svg">
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lattices-dev/.github/main/profile/assets/hero-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lattices-dev/.github/main/profile/assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lattices-dev/.github/main/profile/assets/hero-light.svg">
     <img src="https://raw.githubusercontent.com/lattices-dev/.github/main/profile/assets/hero-light.svg" width="1200" alt="Lattices. Workspaces for agents (and you). Native Mac tools. A shared desktop.">
