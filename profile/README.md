@@ -6,38 +6,38 @@
   </picture>
 </p>
 
-<h1 align="center">Lattices</h1>
+# Lattices
 
-<p align="center">Native Mac workspaces and tools for developers and agents.</p>
+**Workspaces for agents (and you)**
 
-<p align="center"><a href="https://lattices.dev">lattices.dev</a></p>
+Build a workspace you can arrange, search, and control. Lattices brings your windows, terminal sessions, notes, and agents onto the same desktop.
 
-### Projects
+| Product | What it does |
+| --- | --- |
+| **[Lattices](https://lattices.dev)** | A programmable workspace for your Mac. Tile windows, switch projects, search your screen, and keep terminal sessions alive. |
+| **[Action](https://lattices.dev/action)** | Computer use for agents. Observe apps, operate browser surfaces, and record the results. |
+| **[Blink](https://lattices.dev/blink)** | Spatial notes. Write, arrange, and return to notes that live in floating windows on your desktop. |
+| **[Speech](https://lattices.dev/speech)** | A voice for your agents. Listen to queued readouts and follow along in a playback HUD. |
 
-- **[Lattices](https://github.com/arach/lattices)** · A native macOS menu bar app for tiling, layers, search and navigation, with persistent tmux sessions. The `lats` CLI and local API give agents desktop control.
-- **[Action](https://lattices.dev/action)** · Computer use: observe, act and record.
-- **[Speech](https://lattices.dev/speech)** · A voice for agents, with background readouts and HUD readalong.
-- **[Blink](https://lattices.dev/blink)** · Spatial notes as floating panels.
+## Start with Lattices
 
-### Install
+[Download for Mac](https://github.com/lattices-dev/lattices/releases/latest) · [Setup guide](https://lattices.dev/docs/quickstart)
 
-**Mac app 0.14.0** · [Download Lattices.dmg](https://github.com/arach/lattices/releases/download/v0.14.0/Lattices.dmg) · [Releases](https://github.com/arach/lattices/releases)
-
-**Agent skills**
-
-```sh
-npx skills add arach/lattices --all --global --yes
-```
-
-**CLI** · Node 18+ or Bun.
+For the command line tools and bundled app, install [Bun](https://bun.sh), then:
 
 ```sh
-npm install -g @lattices/cli
+npm install -g @lattices/lattices
 lats app
 ```
 
-The CLI is also published as `@arach/lattices`. Source, issues, and releases live in [arach/lattices](https://github.com/arach/lattices).
+For your coding agent:
 
-### Docs
+```sh
+npx skills add lattices-dev/lattices --all --global --yes
+```
 
-[Quickstart](https://lattices.dev/docs/quickstart) · [Mac app](https://lattices.dev/docs/app) · [Layers](https://lattices.dev/docs/layers) · [Agent API](https://lattices.dev/docs/api) · [Agent setup](https://lattices.dev/docs/agents)
+## Explore and contribute
+
+The [main repository](https://github.com/lattices-dev/lattices) contains Lattices and its companion products. Read the [documentation](https://lattices.dev/docs/overview), explore the [agent API](https://lattices.dev/docs/api), or [open an issue](https://github.com/lattices-dev/lattices/issues).
+
+[lattices.dev](https://lattices.dev) · [Product family](https://lattices.dev/family) · [npm](https://www.npmjs.com/package/@lattices/lattices)
